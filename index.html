@@ -5,25 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SamosaByte - Delicious Samosas</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .hero {
+            background-image: url('https://source.unsplash.com/1600x900/?samosa,food');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+        }
+    </style>
 </head>
 <body class="bg-gray-100 text-gray-900">
-    <header class="bg-yellow-500 p-4 text-center text-white text-2xl font-bold">
+    <header class="bg-yellow-600 p-5 text-center text-white text-3xl font-extrabold shadow-md">
         SamosaByte - Fresh & Crispy Samosas
     </header>
     
-    <section class="p-6 text-center">
-        <h2 class="text-3xl font-semibold">Order the Best Samosas for Your Party!</h2>
-        <p class="mt-2 text-lg">B2B and B2C bulk orders available.</p>
-        <a href="https://forms.gle/YOUR_GOOGLE_FORM_LINK" target="_blank" class="mt-4 inline-block bg-yellow-600 text-white px-6 py-3 rounded-lg text-lg">Place Order</a>
+    <section class="hero">
+        <div class="text-center">
+            <h1 class="text-5xl font-bold">Taste the Crunch!</h1>
+            <p class="text-xl mt-2">B2B and B2C bulk orders available.</p>
+            <a href="https://forms.gle/YOUR_GOOGLE_FORM_LINK" target="_blank" 
+               class="mt-4 inline-block bg-yellow-500 hover:bg-yellow-700 transition duration-300 text-white px-8 py-4 rounded-lg text-lg shadow-lg">
+                Place Order
+            </a>
+        </div>
     </section>
     
-    <section class="p-6 text-center bg-white shadow-lg mx-4 my-6 rounded-lg">
-        <h2 class="text-2xl font-semibold">Contact Us</h2>
-        <p>Email: <a href="mailto:contact@samosabyte.com" class="text-blue-600">contact@samosabyte.com</a></p>
-        <p>Phone: +91 XXXXX XXXXX</p>
+    <section class="p-6 text-center bg-white shadow-lg mx-6 my-10 rounded-lg">
+        <h2 class="text-3xl font-semibold text-yellow-600">Contact Us</h2>
+        <p class="text-lg mt-2">Email: <a href="mailto:contact@samosabyte.com" class="text-blue-600 hover:underline">contact@samosabyte.com</a></p>
+        <p class="text-lg">Phone: +91 XXXXX XXXXX</p>
     </section>
     
-    <footer class="bg-gray-900 text-white text-center p-4">
+    <footer class="bg-gray-900 text-white text-center p-6">
         &copy; 2025 SamosaByte. All rights reserved.
     </footer>
 </body>
